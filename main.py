@@ -48,7 +48,7 @@ odd_one_out(input_4)
 type(word_vectors.vocab)
 word_vectors["man"].shape
 
-#word prediction using agiven relation
+#word prediction using a given relation
 def predict_word(a,b,c,word_vectors):
     """Accepts a triad of words, a,b,c and returns d such that a is to b : c is to d"""
     a,b,c = a.lower(),b.lower(),c.lower()
@@ -80,4 +80,4 @@ def predict_word(a,b,c,word_vectors):
 triad_2 = ("man","woman","prince")
 predict_word(*triad_2,word_vectors)    
 word_vectors.most_similar(positive=['woman', 'king'], negative=['man'], topn=1)
-#ypu can use this model on any dat set    
+#you can use this model on any dat set    
