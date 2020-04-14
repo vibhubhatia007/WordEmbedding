@@ -12,3 +12,4 @@ Finding Odd Words
 Word Analogies
 
 https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing
+link to a pretrained word2vec model
